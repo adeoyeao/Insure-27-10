@@ -1,0 +1,9 @@
+.social {
+      width: 24px;
+      height: 24px;
+      display: block;
+      cursor: pointer;
+      &:hover {
+            box-shadow: 0px 10px 12px hsla(270, 9%, 17%, 0.25);
+      }
+}

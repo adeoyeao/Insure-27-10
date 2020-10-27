@@ -1,0 +1,28 @@
+.open {
+      appearance: none;
+      outline: none;
+      background-image: url("../../public/images/icon-hamburger.svg");
+      background-position: center;
+      background-size: cover;
+      border: none;
+      width: 2rem;
+      height: 2rem;
+}
+
+.close {
+      appearance: none;
+      outline: none;
+      background-image: url("../../public/images/icon-close.svg");
+      background-position: center;
+      background-size: cover;
+      border: none;
+      width: 2rem;
+      height: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+      .open,
+      .close {
+            display: none
+      }
+}

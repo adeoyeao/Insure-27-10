@@ -1,0 +1,21 @@
+{
+  "name": "Insure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "build": "next build",
+    "start": "NODE_DEV=production nodemon server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.5.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.27.0"
+  }
+}

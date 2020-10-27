@@ -1,0 +1,36 @@
+.sitemap {
+      display: grid;
+      grid-gap: 1.5rem;
+
+      h4 {
+            margin-top: 1.5rem;
+            font-size: 13px;
+            color: #837D88;
+            text-align: center;
+      }
+
+      ul {
+            list-style-type: none;
+            li {
+                  font-size: 13px;
+                  margin: 1rem;
+                  color: #2D2641;
+                  text-align: center;
+            }
+      }
+}
+
+@media screen and (min-width: 700px) {
+      .sitemap {
+            h4 {
+                  text-align: left
+            }
+            ul {
+                  li {
+                        text-align: left;
+                        margin: 1rem 0;
+                        align-self: start;
+                  }
+            }
+      }
+}

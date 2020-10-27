@@ -1,0 +1,30 @@
+.menu {
+      padding: 4rem 5vw;
+      background-color: #2C2830;
+      background-image: url("../../public/images/bg-pattern-mobile-nav.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      position: absolute;
+      top: 4rem;
+      width: 100vw;
+      height: 100vh;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 2.5rem;
+      grid-template-rows: auto auto auto 1fr;
+      list-style-type: none;
+      text-align: center;
+      font-size: 16px;
+      button {
+            grid-column: 1/2 !important;
+            grid-row: 4/5 !important;
+            margin: 0 auto;
+      }
+
+      a {
+      color: white;
+      text-decoration: none;
+      }
+}

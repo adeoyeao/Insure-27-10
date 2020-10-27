@@ -1,0 +1,33 @@
+.primary {
+      padding: 0.5rem;
+      color: #2C2830;
+      appearance: none;
+      outline: none;
+      border: 1.5px solid #2C2830;
+      background: none;
+      cursor: pointer;
+      width: 150px;
+      height: 60px;
+      &:hover {
+            background: #2C2830;
+            color: white;
+            font-weight: bold;
+      }
+}
+
+.secondary {
+      padding: 0.5rem;
+      color: white;
+      appearance: none;
+      outline: none;
+      border: 1.5px solid white;
+      background: none;
+      cursor: pointer;
+      width: 150px;
+      height: 60px;
+      &:hover {
+            background: white;
+            color: #2C2830;
+            font-weight: bold;
+      }
+}
