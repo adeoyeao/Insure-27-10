@@ -1,3 +1,10 @@
 .image {
       width: 100%;
+      margin: 0 auto;
+}
+
+@media screen and (min-width: 700px) {
+      .image {
+            margin: 0;
+      }
 }
